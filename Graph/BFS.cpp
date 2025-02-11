@@ -10,7 +10,7 @@ void BFS(vector<int>adj[],int v,int s){
     q.push(s);
     
     while(q.empty()==false){
-        int u=q.front();
+        int u=q.front(); 
         q.pop();
         cout<<u<<" ";
         for(int v:adj[u]){
